@@ -1,0 +1,35 @@
+﻿@model IEnumerable<FinalApp.Models.Category>
+
+@{
+    ViewData["Title"] = "Categories";
+}
+
+<h2>Categories</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+@if (ViewBag.Error != null) {<span class="text-danger">@ViewBag.Error</span>}
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Category
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryName)
+                </td>
+                <td>
+                    @Html.ActionLink("Delete", "Delete", new { CategoryId = item.CategoryId })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

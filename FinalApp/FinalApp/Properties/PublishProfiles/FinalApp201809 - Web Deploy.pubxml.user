@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAxoZYs8MfJU2NoPgdGT7LZQAAAAACAAAAAAAQZgAAAAEAACAAAACNcnKz92QqR5g3EyK/7wCG/iwO8jrk6en2XsHvJu5EKAAAAAAOgAAAAAIAACAAAABlfJKYDZ/QmXU11zNIi8DCwgERHJsRGl3+X9q9sAh3T4AAAAB9nE6fR5vGD/oghhFYkAPcxcYFzU4sZNXaJD9B3boOnWBf4k/OTUSvoTu5FvEWi50PqLBeW0Dvzn6tLgNEU9Qpzbx4pa22COwx2Cvd+9rYpclY/qUVluIPLjDgC6kuJbmXOfG8FFWJlLHpYARpFbW9EJ2rIh8MfrDkzms03Z5Uc0AAAADUsgLVXp4wFr/4yY9R7/whzkx1l9OW/giKFFAGmRMuI9U7RPAfLpQ3QDF2uLrUz6Ssux2WKQ6eAHIEM68NcyS+</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="FinalApp">
+      <Value>Server=expired.database.windows.net%3bDatabase=Expired%3bUser Id={0}%3bPassword={1}%3bMultipleActiveResultSets=true</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
