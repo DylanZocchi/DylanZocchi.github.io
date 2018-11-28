@@ -1,0 +1,131 @@
+body {
+  padding: 10%;
+  background-image: url("../img/concrete_wall.png");
+  font-family: 'Merriweather', serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.head-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 50%;
+  margin-left: 2%;
+}
+.container {
+  background-image: url("../img/pw_maze_white.png");
+  padding-top: 30px;
+}
+
+i:hover {
+  color: grey;
+  text-shadow: 1px 1px 1px lightblue;
+}
+
+h1 {
+  margin-left: 2%;
+  margin-bottom: 0px;
+  font-size: 55px;
+  font-weight: bold;
+  height: auto;
+}
+h2 {
+font-size: 22px;
+margin-bottom: 2px;
+font-weight: 500;
+text-shadow: 1px, 1px, 1px, white;
+height: auto;
+}
+h3 {
+  font-size: 28px;
+
+}
+
+h4 {
+  font-size: 18px;
+  margin-bottom: 2px;
+  font-weight: 500;
+  text-shadow: 1px, 1px, 1px, white;
+  height: auto;
+}
+
+h5 {
+  margin-left: 2%;
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 20px;
+}
+
+
+/* Emplyment dates */
+.Date {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* employment section */
+.s1 {
+  border-top: 5px solid #34495E;
+  padding: 40px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin: 2%;
+  margin-top: 0%;
+
+}
+
+li {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+/* skills and eductation */
+.element1 {
+  border-top: 5px solid #34495E;
+  padding: 40px;
+  padding-bottom: 10px;
+  margin: 50px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+
+
+/* link icons */
+.row {
+  width: 50%;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.social-box {
+  width: auto;
+  margin-right: 20px;
+}
+
+.social-box:before {
+  content: "";
+  display: inline-table;
+  height: auto;
+}
+
+.social-box a {
+  color: black;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border: 0px white;
+
+  /* margin: 2px; */
+  height: auto;
+  /* vertical-align: bottom;
+  position: relative; */
+
+}
